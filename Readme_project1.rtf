@@ -1,0 +1,115 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red252\green106\blue8;\red0\green0\blue0;\red5\green99\blue193;
+}
+{\*\expandedcolortbl;;\cssrgb\c100000\c50196\c0;\cssrgb\c0\c0\c0;\csgenericrgb\c1961\c38824\c75686;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh15580\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 Lakshmaiah Dinesh, Hitesh\
+UTA ID: 1001679243
+\fs24 \
+\
+\
+\pard\pardeftab720\sl440\sa240\partightenfactor0
+
+\f1\fs37\fsmilli18667 \cf2 \expnd0\expndtw0\kerning0
+Project Description 
+\f2\fs24 \cf3 \
+\pard\pardeftab720\sl340\sa240\partightenfactor0
+
+\f1\fs28 \cf3 System consisting of a server and three client processes. Each client process will connect to the server over a socket connection and register a user name at the server. The server should be able to handle all three clients concurrently and display the names of the connected clients in real time. The server should be a passive component that acts only to facilitate message delivery. Each client will allow a user to enter a brief text message. \
+\pard\pardeftab720\sl340\sa240\partightenfactor0
+
+\fs29\fsmilli14667 \cf3 \outl0\strokewidth0 \strokec3 When a client sends a message, it will print the intended recipient of the message, as well as its present local time, to its respective GUI. When a client receives a message, it will print the sender\'92s ID, the sender\'92s local time, and whether or not its local clock needs to be adjusted according to Lamport\'92s Logical Clocks 
+\f2\fs24 \
+\pard\pardeftab720\sl340\sa240\partightenfactor0
+\cf3 \outl0\strokewidth0 \
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\f1\fs36 \cf3 \
+NOTE:\
+1.While running on terminal:
+\fs26\fsmilli13333 \
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs28 \cf3 *python3 <name_of_the_file>.py  ( i.e. server1.py) \
+*Remember to type extension while running.
+\fs26\fsmilli13333 \
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs36 \cf3 2.On PyCharm:\
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs28 \cf3 *import the files from the attached zip file.\
+*Run as explained below.
+\fs26\fsmilli13333 \
+\
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs48 \cf3 Assumptions:
+\fs26\fsmilli13333 \
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs28 \cf3 1. Clients name will be displayed only when user enters the name for the first time.\
+2. Clock starts only after client enters his name.
+\fs26\fsmilli13333 \
+\
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs48 \cf3 Steps to run the program
+\fs26\fsmilli13333 \
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs28 \cf3 1. First run the server code.\
+2.Run the client code 3 times. Hence we can prove the multi threading concept  by using these 3 clients.\
+3.After running the client code.A window appears.\
+4.Enter the name of the client when you type for the first time on the text box of the client window.
+\fs26\fsmilli13333 \
+\
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs48 \cf3 Scenarios:
+\fs26\fsmilli13333 \
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs28 \cf3 1.After entering the name there will no user input the clock runs automatically and sends its value to a client randomly.
+\fs48 \
+Note:
+\fs28  1.Always run server code first and close only in the last after closing the clients.\
+	       2.Type \'93quit\'94 to exit client socket and close the window or you can directly click on the close button on the window.
+\fs26\fsmilli13333 \
+\
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\fs48 \cf3 Reference:\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\li720\fi-360\ri0\partightenfactor0
+\ls1\ilvl0\cf4 1.	{\field{\*\fldinst{HYPERLINK "https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170"}}{\fldrslt \ul https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170}}\cf0 \
+\ls1\ilvl0\cf4 2.	{\field{\*\fldinst{HYPERLINK "https://www.geeksforgeeks.org/python-membership-identity-operators-not-not/"}}{\fldrslt \ul https://www.geeksforgeeks.org/python-membership-identity-operators-not-not/}}\cf0 \
+\ls1\ilvl0\cf4 3.	{\field{\*\fldinst{HYPERLINK "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST"}}{\fldrslt \ul https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST}}\ul \
+\ls1\ilvl0\cf0 \ulnone \
+\pard\pardeftab720\li720\ri0\partightenfactor0
+
+\fs24 \cf0 \
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\f1\fs26\fsmilli13333 \cf3 \expnd0\expndtw0\kerning0
+\
+\
+\
+\
+\
+\
+\
+\
+\pard\pardeftab720\sl300\sa240\partightenfactor0
+
+\f2\fs24 \cf3 \
+}
